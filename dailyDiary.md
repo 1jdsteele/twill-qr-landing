@@ -21,17 +21,20 @@ Confirmed meeting with Leon. Continued prooposal work. Looked into various techn
 
 ## April 8, 2022
 
-Finished proposals for project. Had lengthy meeting with Leon. Talked about many specifics. Received developer permissions for his online store. Began looking at the code that he already has. Began learning syntax etc for Liquid.
+Finished proposals for project. Had lengthy meeting with Leon. Talked about many specifics. Received developer permissions for his online store. Began looking at the code that he already has. Began learning syntax etc for Liquid. Created page qr-landing-page.
 
 ## April 9, 2022
 
-Continued exploration into Liquid and how templates, themes, and pages interact in Shopify. Created a page with a link to prove to myself I can do it. Started to explore Leon's shop and had several more questions because it seemed he might already have had what he is asking me to build. Got into nitty gritty: shopify is normally pretty malleable, but where it glaringly lacks malleability is in it's landing page for blogs. If I can rework that page, the client's desires would be met. 
+Continued exploration into Liquid and how templates, themes, and pages interact in Shopify. Created a page with a link to prove to myself I can do it. Started to explore Leon's shop and had several more questions because it seemed he might already have had what he is asking me to build. Got into nitty gritty: shopify is normally pretty malleable, but where it glaringly lacks malleability is in it's landing page for blogs. If I can rework that page, the client's desires would be met. Made a copy of the debut theme to mess with it.
 
 Learning a whole bunch about how shopify works, but not having much luck with moving forward. Realized that what I want to do seems simple in React. Made a directory and began a diary. Created a react app, because I did not feel confident in doing this project via Liquid; making the react app was unneccessary at that point. Made a plan: if by Wednesday, April 13 I have not made significant headway via shopify I would transisiton to making this project via React.
 
 
-
 ## April 10, 2022
+
+No significant work was done for this project.
+
+## April 11, 2022
 
 Made github repository and pushed this directory into it. Created all necessary links in Liquid. Learned about assets directory and how to add custom css. Changed links to pictures as the client wants. 
 
@@ -40,3 +43,18 @@ Explored the structure of the code and directories with peer, Michael Brock. Pre
 Thought I had broken entire store which was weird since I have been specifically working only in areas that I have created and not touched any of the code for the live store. Eventually found out I had not broken it and am still confused as to where I had navigated to make it seem like everything was broken. 
 
 To be clear, I have been working in the code editor provided within shopify as there are many many directories and files, and a signigicant amount of code within those files. If this project is completed within shopify, as would be best for the client, I would have nothing to show in my github.
+
+
+## April 12, 2022
+
+Today really good headway was made.
+
+Realized instead of starting from "scratch", which is not nothing in shopify, I should start from where he is at.
+
+Made a copy of the theme of his whole store and gave to make it use as my sandbox dev branch. From there was able to look at his code for his blog page and was able to understand the vast majority of what was going on. Mostly, a for loop was taking every blog post (called article) and using the properties of the post to render its title, image, a truncated part of the post (in lieu of a summary I believe which would have happened except since he didn't have a summary so the post truncated is used). Got rid of all of those properties except the image and was left with a collection of images as the client desired. Added target and dynamic title to a tags. Changed the paginate. Started to get rid of yagni code.
+
+Found the css that controls the entire store. Made my own section at the bottom. Used the classes avaliable from the blog component and added a class to control more specifically. Used the !important tag to control an element that was controlled more specifically in the legacy code so to not disturb styles in other places.
+
+The page looked and acted as Leon wanted. I published the page and talked to Leon to look at it, obtained approval. 
+
+Now that the main aspect of this project is done I have several "soft" things to do: update this repo with the code I made today, make a list of details to ask Leon about, look into connecting the QR code to the page, and think about other pages that Leon might want work on.
