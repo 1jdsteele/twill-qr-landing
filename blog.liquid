@@ -1,26 +1,29 @@
 {% comment %}
 This is the file that controls the blog via the main theme of the store.
+Any comment beginning with JUJU is specifically meant for the owner.
 {% endcomment %}
 
 <!-- /templates/blog.liquid -->
 <!-- this version by Jake Steele, starter from default -->
 
-{% paginate blog.articles by 12 %}
+
+<!--JUJU the number at the end of the next line tells how many blogs will 
+be on a single page before a new page is created.  -->
+{% paginate blog.articles by 2000 %}
 
 <div class="blogcss page-width page-container" itemscope itemtype="http://schema.org/Article">
 
   {% for article in blog.articles %}
-   <div class="column-wrapper"> 
-    <div class="rte rte--indented-images">
+    <div class="rte rte--indented-images column-wrapper">
       {% if article.image %}
-        <p class="cm_center">
+<!--JUJU next line creates link to blog post and
+shows the title of your blog post when  you hover over the image in desktop.
+If you don't want the hover title deleter target and title and what they are = to-->
           <a href="{{ article.url }}" target="_blank" title="{{article.title}}">
             {{ article | img_url: 'large'| img_tag: article.title}}
           </a>
-        </p>
       {% endif %}
      </div> 
-    </div>
   {% endfor %}
 
   
@@ -32,3 +35,4 @@ This is the file that controls the blog via the main theme of the store.
 </div>
 
 {% endpaginate %}
+

@@ -1,7 +1,12 @@
-link to created page: 
-https://www.twillthemessenger.com/pages/trademark-twill
-
 # Daily Diary for QR landing page for Twill the Messenger
+
+## Links
+
+link to final qr landing page that is deployed:
+https://www.twillthemessenger.com/blogs/woven-scripts
+
+link to created page that I scrapped: 
+https://www.twillthemessenger.com/pages/trademark-twill
 
 ## Pre April 5, 2022
 
@@ -49,7 +54,7 @@ To be clear, I have been working in the code editor provided within shopify as t
 
 Today really good headway was made.
 
-Realized instead of starting from "scratch", which is not nothing in shopify, I should start from where he is at.
+Realized instead of starting from "scratch", which is not nothing in shopify, I should start from where he is at. Suggestion came from friend.
 
 Made a copy of the theme of his whole store and gave to make it use as my sandbox dev branch. From there was able to look at his code for his blog page and was able to understand the vast majority of what was going on. Mostly, a for loop was taking every blog post (called article) and using the properties of the post to render its title, image, a truncated part of the post (in lieu of a summary I believe which would have happened except since he didn't have a summary so the post truncated is used). Got rid of all of those properties except the image and was left with a collection of images as the client desired. Added target and dynamic title to a tags. Changed the paginate. Started to get rid of yagni code.
 
@@ -58,3 +63,10 @@ Found the css that controls the entire store. Made my own section at the bottom.
 The page looked and acted as Leon wanted. I published the page and talked to Leon to look at it, obtained approval. 
 
 Now that the main aspect of this project is done I have several "soft" things to do: update this repo with the code I made today, make a list of details to ask Leon about, look into connecting the QR code to the page, and think about other pages that Leon might want work on as stretch goals for this sprint.
+
+## April 13, 2022
+
+Started the day deleting yagni code and commenting specifics for client's blog landing page.
+
+Had meeting with client to discuss specifics: pagination number, links opening in new tab, qr compatibility and who will do it, how he can change picture links on landing page, alignment issues, and stretch goals. For stretch goal, client wants a video gallery, single column. 
+
