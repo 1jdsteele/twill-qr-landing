@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Twill the Messenger QR landing page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link to deployed page
 
-## Available Scripts
+https://www.twillthemessenger.com/blogs/woven-scripts
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+The purpose of this repo is to show and describe the process I went through to meet some needs of small business owner Julian Leon for his clothing brand, Twill the Messenger.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After many iterations of ideas, we agreed that his physical QR codes would link to a page that has links to all of his stories (think blog posts). I would make that page. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+That page was made by reworking Liquid in his Shopify shop via a developer account I created and Leon gave developer permissions to.
 
-### `npm test`
+Now that this page has been created, Leon can leave his clothing at viewings with the QR code so that people can find out more information about what he does without him there.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Explanation of files in this repo
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Before
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Desktop
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1264" alt="Screen Shot 2022-04-13 at 4 36 46 PM" src="https://user-images.githubusercontent.com/97859358/163286765-0f2a1fe2-41bb-46d8-84f2-f5f6725967a1.png">
 
-### `npm run eject`
+#### Mobile
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="364" alt="Screen Shot 2022-04-13 at 4 40 00 PM" src="https://user-images.githubusercontent.com/97859358/163287022-e10c0aec-eee4-46a2-a0d9-39e714bdf7d9.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### After
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Desktop
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1262" alt="Screen Shot 2022-04-13 at 4 29 20 PM" src="https://user-images.githubusercontent.com/97859358/163286143-c6fa0c68-1f11-4678-a5cf-f6f01e97802c.png">
 
-## Learn More
+#### Mobile
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="369" alt="Screen Shot 2022-04-13 at 4 32 10 PM" src="https://user-images.githubusercontent.com/97859358/163286413-5105131d-8f2d-4f99-843f-4c554032531e.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Sample of Liquid within Shopify
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Used
 
-### Analyzing the Bundle Size
+Shopify
+Liquid
+VS Code
+Git
+GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Link to GitHub repository
 
-### Making a Progressive Web App
+https://github.com/1jdsteele/twill-qr-landing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contribution Guidelines
 
-### Advanced Configuration
+This repository is not meant to be contributed to. If you would have suggestions, would like to report a bug, or would like to work on the Twill the Messenger shop, please contact Julian Leon via twillthemessenger.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## MVP Goals
 
-### Deployment
+Page that links to all stories via images set up in a 3-across grid.
+This page is accesible via a QR code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## User Stories
 
-### `npm run build` fails to minify
+As a clothing browser, I want to easily find 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Goals
+
+
+
+
+## Sources
+
+
+
+
+## Original wireframe and component tree
+
+
+
+
+
