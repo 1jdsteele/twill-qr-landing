@@ -57,4 +57,4 @@ Found the css that controls the entire store. Made my own section at the bottom.
 
 The page looked and acted as Leon wanted. I published the page and talked to Leon to look at it, obtained approval. 
 
-Now that the main aspect of this project is done I have several "soft" things to do: update this repo with the code I made today, make a list of details to ask Leon about, look into connecting the QR code to the page, and think about other pages that Leon might want work on.
+Now that the main aspect of this project is done I have several "soft" things to do: update this repo with the code I made today, make a list of details to ask Leon about, look into connecting the QR code to the page, and think about other pages that Leon might want work on as stretch goals for this sprint.

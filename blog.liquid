@@ -1,0 +1,34 @@
+{% comment %}
+This is the file that controls the blog via the main theme of the store.
+{% endcomment %}
+
+<!-- /templates/blog.liquid -->
+<!-- this version by Jake Steele, starter from default -->
+
+{% paginate blog.articles by 12 %}
+
+<div class="blogcss page-width page-container" itemscope itemtype="http://schema.org/Article">
+
+  {% for article in blog.articles %}
+   <div class="column-wrapper"> 
+    <div class="rte rte--indented-images">
+      {% if article.image %}
+        <p class="cm_center">
+          <a href="{{ article.url }}" target="_blank" title="{{article.title}}">
+            {{ article | img_url: 'large'| img_tag: article.title}}
+          </a>
+        </p>
+      {% endif %}
+     </div> 
+    </div>
+  {% endfor %}
+
+  
+  {% if paginate.pages > 1 %}
+    <hr class="hr--clear">
+
+    {% include 'pagination' %}
+  {% endif %}
+</div>
+
+{% endpaginate %}
