@@ -70,3 +70,8 @@ Started the day deleting yagni code and commenting specifics for client's blog l
 
 Had meeting with client to discuss specifics: pagination number, links opening in new tab, qr compatibility and who will do it, how he can change picture links on landing page, alignment issues, and stretch goals. For stretch goal, client wants a video gallery, single column. 
 
+Did minor css. Cleaned repo of React components I had erroneously installed. Researched videos within Liquid. Began README.
+
+Pair programmed with Danny Thompson for 1.75 hours to try to fix alignment issue. At 750px width, the images were getting pushed left by a noticeable amount. At much lower widths, a media query I made was starting to counteract that but even in mobile view a slight discrepancy was seen. We ended up seeing that in the legacy css there was a media query specifically at 750 px for one of the classes, I believe rte--indented which now typing this in hindsight looks like purposefully indents. I had already had a max width with an important tag counteracting this, and also added a margin-left: 0 targeting the images and that put the images where they needed to be. 
+
+We then decided to tackle the gap between rows and were able to fix that by giving row-gap 1vh. We also made sure to have our gap at 1% so that per row the total never went over 100% - using a set amount of pixels would do this at lower widths.
