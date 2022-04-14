@@ -1,7 +1,6 @@
-/*
-The code theat I created is in a section at the very bottom of the page starting on line 6106 labeled Steele code.
-*/
+/* My contributions start on line 6105. COmment below for owner. */
 
+/*JUJU if you need to look at styles for blogs, my section starts on line 6103  */
 
 
 /*============================================================================
@@ -6103,21 +6102,29 @@ margin: auto;
 
 
 
-/* Steele code for column-wrapper to make grid */
+/* Steele code for blog styles */
 
 .column-wrapper {
-  display:inline-block;
-  width: 32%;
+/*   display:inline-block; */
+/*   width: 32%; */
+  flex-basis: 32%;
+  flex-shrink: 0;
+  
 }
 
 .column-wrapper img {
 	max-width: 100% !important;
+  	margin-left: 0 !important;
+  	height: 100%;
+  	
 }
 
-@media only screen and (max-width:765px)
-  {
-.blogcss{
-  position:relative;
-  left:8px;
+.blogcss {
+	
+	display: flex;
+    justify-content: center;
+  	flex-flow: row wrap;
+  	gap: 1%;
+  	row-gap: 1vh;
 }
-}
+
