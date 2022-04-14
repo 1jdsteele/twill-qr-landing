@@ -4,17 +4,38 @@
 
 https://www.twillthemessenger.com/blogs/woven-scripts
 
+## Link to scrapped page
+
+https://www.twillthemessenger.com/pages/trademark-twill
+
 ## Project Description
 
-The purpose of this repo is to show and describe the process I went through to meet some needs of small business owner Julian Leon for his clothing brand, Twill the Messenger.
+The purpose of this repo is to show and describe the process I went through to meet the need of small business owner Julian Leon for his clothing brand, Twill the Messenger.
 
 After many iterations of ideas, we agreed that his physical QR codes would link to a page that has links to all of his stories (think blog posts). I would make that page. 
 
 That page was made by reworking Liquid in his Shopify shop via a developer account I created and Leon gave developer permissions to.
 
-Now that this page has been created, Leon can leave his clothing at viewings with the QR code so that people can find out more information about what he does without him there.
+Now that this page has been created to his specifications, Leon can leave his clothing at viewings with the QR code so that people can find out more information about what he does without him there.
 
 ## Explanation of files in this repo
+
+The files in this repo are copies of some of the files that I created or files that I added to or made major deletions to.
+
+blog.liquid was the code that I deleted a whole bunch from and added a few classes and commented throughly to create the final blog page.
+
+theme.scss.liquid contains the css that controls Leon's entire store. My additions start at the very bottom.
+
+All subsequent files were not used in the end for this project.
+
+page-content.html was the html to the blog page I had started making from "scratch."
+
+qr-landing-page.liquid is the code that renders page-content.html.
+
+theme.css controls the themes to a duplicated generic store. Here I was looking for how it controls the whole store.
+
+Also to note: I created what is called two themes. One theme, Debut Copy Trademark 2 dev theme to experiment in which was originally a copy of an empty store, and Spring 2022 April 13, 2022 w qr landing page which was a copy of Leon's entire store, to be used as a development branch.
+
 
 ## Screenshots
 
@@ -32,7 +53,8 @@ Now that this page has been created, Leon can leave his clothing at viewings wit
 
 #### Desktop
 
-<img width="1262" alt="Screen Shot 2022-04-13 at 4 29 20 PM" src="https://user-images.githubusercontent.com/97859358/163286143-c6fa0c68-1f11-4678-a5cf-f6f01e97802c.png">
+<img width="1437" alt="Screen Shot 2022-04-14 at 3 33 41 PM" src="https://media.git.generalassemb.ly/user/41473/files/51379480-bc08-11ec-9701-45665e4a4631">
+
 
 #### Mobile
 
@@ -48,6 +70,7 @@ Liquid
 VS Code
 Git
 GitHub
+CSS
 
 ## Link to GitHub repository
 
@@ -55,30 +78,50 @@ https://github.com/1jdsteele/twill-qr-landing
 
 ## Contribution Guidelines
 
-This repository is not meant to be contributed to. If you would have suggestions, would like to report a bug, or would like to work on the Twill the Messenger shop, please contact Julian Leon via twillthemessenger.com
+This repository is not meant to be contributed to. If you have suggestions, would like to report a bug, or would like to work on the Twill the Messenger shop, please contact Julian Leon via https://www.twillthemessenger.com/
 
 ## MVP Goals
 
 Page that links to all stories via images set up in a 3-across grid.
 This page is accesible via a QR code.
+Page has similar sytling to the rest of Twill the Messenger shop.
 
 ## User Stories
 
-As a clothing browser, I want to easily find 
+As a clothing browser, I want to easily find the story I'm looking for.
+As the owner, I want the page to appear via a QR code.
+As the owner, I want others to quickly find the story they are looking for.
+As the owner, I want to know how to maintain this page.
+As a developer working on this project on the future, I do not want to be distracted by code that isn't doing anything.
+As a developer working on this project in the future, I want the comments to clearly guide and show me what is happening and why.
 
 ## Future Goals
 
+Leon has given the full go ahead for publication and is very happy with the way this page has turned out. Future goals would include anything else Leon has in mind.
 
+Specifically, Leon has mentioned that he wants a page that is a video gallery, in a single column.
 
 
 ## Sources
 
+Legacy code provided by Julian Leon's shopify store.
 
+New code written by Jake Steele.
 
+Danny Thompson helped with alignment.
 
-## Original wireframe and component tree
+Esin Saribudak helped with standardizing gap sizes.
 
+## Original wireframes
 
+### Desktop
 
+The end product was instead a grid of 3 across, per request of the owner.
+
+<img width="1027" alt="wireframe_twill_fullview" src="https://media.git.generalassemb.ly/user/41473/files/aa935580-b728-11ec-81e3-04a1c68fb511">
+
+### Mobile
+
+<img width="347" alt="wireframe_twill_full_mobile" src="https://media.git.generalassemb.ly/user/41473/files/b1ba6380-b728-11ec-910b-12cef4f9012a">
 
 

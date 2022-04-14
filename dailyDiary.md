@@ -82,4 +82,10 @@ Made appointment to meet client saturday at 4 to show him specifics in person of
 
 ## April 14, 2022
 
-Woke up and immeidately checked page. Images on mobile distroted, too tall.
+Woke up and immeidately checked page. Images on mobile distroted, too tall. But ONLY on actual mobile. On desktop everything is fine, INCLUDING shrinking it down to mobile sizes AND emulating mobile. But on my phone it looks terrible. Trying to get screenshots of the site from other phones to compare.
+
+Was able to quickly solve the stretching image issue: removing height: 100% form the images corrected the aspect ratio. But this led to a larger horizontal gap than the vertical gaps. Client was satisfied, but I wanted to learn more, understand, and fix this.
+
+After more messing around, I was helped by Esin Saribudak. By targeting the anchor which was the direct parent of the image, we were able to make sure the nothing went outside the confines of the container and the container was as large as it's contents. Thank you, Esin.
+
+Cleaned up code, made important commentary. Updated files in this repo. Did work on README.
