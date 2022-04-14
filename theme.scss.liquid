@@ -6105,19 +6105,22 @@ margin: auto;
 /* Steele code for blog styles */
 
 .column-wrapper {
+  
+/* make sure each image takes up less than 1/3 of width so 3 images fit   */
   flex-basis: 32%;
   flex-shrink: 0;
-  
-  
 }
 
 .column-wrapper img {
+  
+/*DO NOT GET RID OF NEXT TWO LINES OF CODE  */
+/* this specifically counteracts a media query class   */
+/* rte--indented-images gives at width 750px */
 	max-width: 100% !important;
   	margin-left: 0 !important;
   	flex-shrink: 0;
   	min-width: 100%;
   	min-height: 100%;
-  	
 }
 
 .column-wrapper a {
@@ -6133,10 +6136,14 @@ margin: auto;
 	display: flex;
     justify-content: center;
   	flex-flow: row wrap;
+/*NEXT TWO LINES OF CODE ARE SET TO THE MAX */
+/*if increased, will have 2 images per row at widths below 419px  */
+/*current limit of width: 399px  */
+/* if necessary to have width less than 399px, must decrease vh  */
+/* iPhone 5 pixel width: 320  */
+/* gap can be made a percentage, but row-gap cannot unfortunatley  */
   	gap: 0.9485vh;
   	row-gap: 0.9485vh;
-
-
 }
 
 
