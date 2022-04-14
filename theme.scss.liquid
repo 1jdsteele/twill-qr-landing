@@ -6115,9 +6115,18 @@ margin: auto;
 .column-wrapper img {
 	max-width: 100% !important;
   	margin-left: 0 !important;
-  	height: 100%;
+/*====== For some reason, next line breaks ACTUAL mobile =========  */
+    	height: 100%;
+/* next line can be used but seems unnecessary    */
+/*   	height: auto; */
+  	
   	
 }
+
+/* .column-wrapper a {
+	position: relative;
+  	top: 0;
+} */
 
 .blogcss {
 	
@@ -6125,8 +6134,13 @@ margin: auto;
     justify-content: center;
   	flex-flow: row wrap;
   	gap: 1%;
+/*   	row-gap: 1%; */
   	row-gap: 1vh;
+
+
 }
+
+
 
 
 
