@@ -10,39 +10,29 @@ Any comment beginning with JUJU is specifically meant for the owner.
 <!-- this version by Jake Steele, starter from default -->
 
 
+
 <div class="page-width">
   <header>
-<!--JUJU by changing whatever is in between <h1> and </h1>  -->
-<!--You can change the "title" of your total blog page.     -->
+<!--JUJU by changing whatever is in between <h1> and </h1> 
+you can change the "title" of your total blog page.     -->
     <h1>Stories</h1>
   </header>
 </div>
 
-<!--JUJU the number at the end of the next line tells how many blogs will 
-be on a single page before a new page is created.  -->
-{% paginate blog.articles by 2000 %}
 
-<div class="blogcss page-width page-container" itemscope itemtype="http://schema.org/Article">
 
+<div class="blogcss page-width page-container">
   {% for article in blog.articles %}
     <div class="column-wrapper black-border">
-      {% if article.image %}
+      
 <!--JUJU next line creates link to blog post and
 shows the title of your blog post when  you hover over the image in desktop.
-If you don't want the hover title deleter target and title and what they are = to-->
+If you don't want the hover title delete target and title and what they are = to-->
+      
           <a href="{{ article.url }}" target="_blank" title="{{article.title}}">
             {{ article | img_url: 'large'| img_tag: article.title}}
           </a>
-      {% endif %}
      </div> 
   {% endfor %}
-
-  
-  {% if paginate.pages > 1 %}
-    <hr class="hr--clear">
-
-    {% include 'pagination' %}
-  {% endif %}
 </div>
 
-{% endpaginate %}
