@@ -88,4 +88,6 @@ Was able to quickly solve the stretching image issue: removing height: 100% form
 
 After more messing around, I was helped by Esin Saribudak. By targeting the anchor which was the direct parent of the image, we were able to make sure the nothing went outside the confines of the container and the container was as large as it's contents. Thank you, Esin.
 
-Cleaned up code, made important commentary. Updated files in this repo. Did work on README.
+Cleaned up code, most notably the classes rte and rte--indented-images. Then got rid of the css workarounds (images within column wrapper having margin left 0 and max width 100 both important) for what they were mucking up. Made important commentary. Updated files in this repo. Did work on README.
+
+Researched and began work for another page as a stretch goal: video gallery. Created a new page with a link from the home nav. Added a video to it.
