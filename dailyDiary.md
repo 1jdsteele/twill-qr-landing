@@ -91,3 +91,11 @@ After more messing around, I was helped by Esin Saribudak. By targeting the anch
 Cleaned up code, most notably the classes rte and rte--indented-images. Then got rid of the css workarounds (images within column wrapper having margin left 0 and max width 100 both important) for what they were mucking up. Made important commentary. Updated files in this repo. Did work on README.
 
 Researched and began work for another page as a stretch goal: video gallery. Created a new page with a link from the home nav. Added a video to it.
+
+## April 15, 2022
+
+
+Perused Leon's various webpages and saw that his page "Col 1. Home Team" has images with a thin, black, non-rounded border. Created a new class and added it to the div that surrounds the images. Styled this new class to give a similar border to images of the blog landing page as "Col 1. Home Team" page.
+
+
+
