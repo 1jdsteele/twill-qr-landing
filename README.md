@@ -4,6 +4,10 @@
 
 https://www.twillthemessenger.com/blogs/woven-scripts
 
+## Link to stretch goal: video gallery page
+
+https://www.twillthemessenger.com/pages/highlights
+
 ## Link to scrapped page
 
 https://www.twillthemessenger.com/pages/trademark-twill
@@ -18,13 +22,19 @@ That page was made by reworking Liquid in his Shopify shop via a developer accou
 
 Now that this page has been created to his specifications, Leon can leave his clothing at viewings with the QR code so that people can find out more information about what he does without him there.
 
+Leon then gave me another (stretch) goal: a video gallery page. This was completed with dummy data and not directly connected to his main shop page so that users cannot easily navigate to it. The video gallery code has a template I created with directions so Leon can add videos and descriptions as he sees fit.
+
 ## Explanation of files in this repo
 
 The files in this repo are copies of some of the files that I created or files that I added to or made major deletions to.
 
-blog.liquid was the code that I deleted a whole bunch from and added a few classes and commented throughly to create the final blog page.
+blog.liquid was the code that I deleted a whole bunch from and added a few classes, some other code and commented thoroughly to create the final blog page.
 
 theme.scss.liquid contains the css that controls Leon's entire store. My additions start at the very bottom.
+
+page.highlights.liquid is connects the menu to the video gallery page.
+
+page.video-gallery.liquid was the stretch goal page, it displays videos and text. It has a template and directions for the owner to add more videos in the future.
 
 All subsequent files were not used in the end for this project.
 
@@ -41,27 +51,46 @@ Also to note: I created what is called two themes. One theme, Debut Copy Tradema
 
 ### Before
 
-#### Desktop
+#### Desktop QR Landing Page
 
 <img width="1264" alt="Screen Shot 2022-04-13 at 4 36 46 PM" src="https://user-images.githubusercontent.com/97859358/163286765-0f2a1fe2-41bb-46d8-84f2-f5f6725967a1.png">
 
-#### Mobile
+#### Mobile QR Landing Page
 
 <img width="364" alt="Screen Shot 2022-04-13 at 4 40 00 PM" src="https://user-images.githubusercontent.com/97859358/163287022-e10c0aec-eee4-46a2-a0d9-39e714bdf7d9.png">
 
 ### After
 
-#### Desktop
+#### Desktop QR Landing Page
 
 <img width="1437" alt="Screen Shot 2022-04-14 at 3 33 41 PM" src="https://media.git.generalassemb.ly/user/41473/files/51379480-bc08-11ec-9701-45665e4a4631">
 
 
-#### Mobile
-
+#### Mobile QR Landing Page
+TODO reput in this one
 <img width="369" alt="Screen Shot 2022-04-13 at 4 32 10 PM" src="https://user-images.githubusercontent.com/97859358/163286413-5105131d-8f2d-4f99-843f-4c554032531e.png">
+
+#### Desktop Video Gallery
+
+<img width="1436" alt="Screen Shot 2022-04-15 at 2 18 57 PM" src="https://user-images.githubusercontent.com/97859358/163633589-7d34bc68-b760-4412-9394-2aa80bfcab7b.png">
+
+#### Mobile Video Gallery
+
+<img width="362" alt="Screen Shot 2022-04-15 at 2 20 03 PM" src="https://user-images.githubusercontent.com/97859358/163633654-daef3289-f30b-491b-92b7-90a8af499b12.png">
 
 ### Sample of Liquid within Shopify
 
+<div class="blogcss page-width page-container">
+  {% for article in blog.articles %}
+    <div class="column-wrapper black-border">
+          <a href="{{ article.url }}" target="_blank" title="{{article.title}}">
+            {{ article | img_url: 'large'| img_tag: article.title}}
+          </a>
+     </div> 
+  {% endfor %}
+</div>
+
+Above creates the individual images and links for each post on the  QR  landing page. Note that Liquid uses {%%} for logic and {{}} to render dynamically. | is used as a filter.
 
 ## Tech Used
 
@@ -71,6 +100,7 @@ VS Code
 Git
 GitHub
 CSS
+HTML
 
 ## Link to GitHub repository
 
@@ -98,9 +128,6 @@ As a developer working on this project in the future, I want the comments to cle
 ## Future Goals
 
 Leon has given the full go ahead for publication and is very happy with the way this page has turned out. Future goals would include anything else Leon has in mind.
-
-Specifically, Leon has mentioned that he wants a page that is a video gallery, in a single column.
-
 
 ## Sources
 
