@@ -111,4 +111,4 @@ Met with client today to show him what I did and how he can take control in the 
 
 ## April 17, 2022
 
-In video gallery I centered the header, made more space between elements in the single column, and gave each video a subheader aligned left. Let client know that the gallery had been updated to specifications. 
+In video gallery I centered the header, made more space between elements in the single column, and gave each video a subheader aligned left. Let client know that the gallery had been updated to specifications. Updated files and read me in repo.

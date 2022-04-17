@@ -38,11 +38,15 @@ Leon then gave me another (stretch) goal: a video gallery page. This was complet
 
 #### Desktop Video Gallery
 
-<img width="1436" alt="Screen Shot 2022-04-15 at 2 18 57 PM" src="https://user-images.githubusercontent.com/97859358/163633589-7d34bc68-b760-4412-9394-2aa80bfcab7b.png">
+<img width="1435" alt="Screen Shot 2022-04-17 at 12 14 10 PM" src="https://user-images.githubusercontent.com/97859358/163729058-987d47ed-40ba-4269-8197-9c5db91616f1.png">
+
+#### Desktop Video Gallery scrolled down
+
+<img width="1435" alt="Screen Shot 2022-04-17 at 12 14 56 PM" src="https://user-images.githubusercontent.com/97859358/163729110-d352c13f-7917-4464-b707-1e8003f15ea2.png">
 
 #### Mobile Video Gallery
 
-<img width="362" alt="Screen Shot 2022-04-15 at 2 20 03 PM" src="https://user-images.githubusercontent.com/97859358/163633654-daef3289-f30b-491b-92b7-90a8af499b12.png">
+<img width="370" alt="Screen Shot 2022-04-17 at 12 16 33 PM" src="https://user-images.githubusercontent.com/97859358/163729137-47d01847-1859-42e4-905f-f1e6715a8190.png">
 
 ### Before
 
@@ -115,10 +119,15 @@ Page has similar sytling to the rest of Twill the Messenger shop.
 ## User Stories
 
 As a clothing browser, I want to easily find the story I'm looking for.
+
 As the owner, I want the page to appear via a QR code.
+
 As the owner, I want others to quickly find the story they are looking for.
+
 As the owner, I want to know how to maintain this page.
+
 As a developer working on this project on the future, I do not want to be distracted by code that isn't doing anything.
+
 As a developer working on this project in the future, I want the comments to clearly guide and show me what is happening and why.
 
 ## Future Goals
