@@ -107,4 +107,8 @@ Did more readme work. Cleaned up random things here and there. I think everythin
 
 ## April 16, 2022
 
-Met with client today to show him what I did and how he can take control in the future. He was able to succesfully add a new story to the qr landing page and a new video to the video gallery. He asked me to do a few mor things for the video gallery. He was very pleased with the work that had been done. I plan on making the adjustments to the video gallery he suggested tomorrow.
+Met with client today to show him what I did and how he can take control in the future. He was able to succesfully add a new story to the qr landing page and a new video to the video gallery. He asked me to do a few more things for the video gallery. He was very pleased with the work that had been done. I plan on making the adjustments to the video gallery he suggested tomorrow.
+
+## April 17, 2022
+
+In video gallery I centered the header, made more space between elements in the single column, and gave each video a subheader aligned left. Let client know that the gallery had been updated to specifications. 
