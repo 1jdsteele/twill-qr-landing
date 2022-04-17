@@ -97,5 +97,14 @@ Researched and began work for another page as a stretch goal: video gallery. Cre
 
 Perused Leon's various webpages and saw that his page "Col 1. Home Team" has images with a thin, black, non-rounded border. Created a new class and added it to the div that surrounds the images. Styled this new class to give a similar border to images of the blog landing page as "Col 1. Home Team" page.
 
+Added more videos to video gallery. Gave them classes to add margins to spread them out. Talked to client and added text, changed title, hid the page from his side menu. Clearly made the owner a cheat sheet and a template so that he can add videos himself when he is ready.
 
+Stretch goal accomplished? I think so.
 
+Went into blog.liquid and really refined it, I think every line of code is now necessary with no extraneous code.
+
+Did more readme work. Cleaned up random things here and there. I think everything basically looks ready. Prepared for 4pm meeting with Leon tomorrow. Goals include have him understand what I did, how he can change it himself, if there are any quick fixes he would like to see, and ask him about future projects.
+
+## April 16, 2022
+
+Met with client today to show him what I did and how he can take control in the future. He was able to succesfully add a new story to the qr landing page and a new video to the video gallery. He asked me to do a few mor things for the video gallery. He was very pleased with the work that had been done. I plan on making the adjustments to the video gallery he suggested tomorrow.

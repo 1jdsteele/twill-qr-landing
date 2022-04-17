@@ -24,6 +24,42 @@ Now that this page has been created to his specifications, Leon can leave his cl
 
 Leon then gave me another (stretch) goal: a video gallery page. This was completed with dummy data and not directly connected to his main shop page so that users cannot easily navigate to it. The video gallery code has a template I created with directions so Leon can add videos and descriptions as he sees fit.
 
+## Screenshots
+
+### After
+
+#### Desktop QR Landing Page
+
+<img width="1437" alt="Screen Shot 2022-04-14 at 3 33 41 PM" src="https://media.git.generalassemb.ly/user/41473/files/51379480-bc08-11ec-9701-45665e4a4631">
+
+#### Mobile QR Landing Page
+
+<img width="372" alt="Screen Shot 2022-04-15 at 2 38 24 PM" src="https://user-images.githubusercontent.com/97859358/163635158-a300aa86-415b-40b8-9599-dbe38c29542a.png">
+
+#### Desktop Video Gallery
+
+<img width="1436" alt="Screen Shot 2022-04-15 at 2 18 57 PM" src="https://user-images.githubusercontent.com/97859358/163633589-7d34bc68-b760-4412-9394-2aa80bfcab7b.png">
+
+#### Mobile Video Gallery
+
+<img width="362" alt="Screen Shot 2022-04-15 at 2 20 03 PM" src="https://user-images.githubusercontent.com/97859358/163633654-daef3289-f30b-491b-92b7-90a8af499b12.png">
+
+### Before
+
+#### Desktop QR Landing Page
+
+<img width="1264" alt="Screen Shot 2022-04-13 at 4 36 46 PM" src="https://user-images.githubusercontent.com/97859358/163286765-0f2a1fe2-41bb-46d8-84f2-f5f6725967a1.png">
+
+#### Mobile QR Landing Page
+
+<img width="364" alt="Screen Shot 2022-04-13 at 4 40 00 PM" src="https://user-images.githubusercontent.com/97859358/163287022-e10c0aec-eee4-46a2-a0d9-39e714bdf7d9.png">
+
+## Sample of Liquid within Shopify
+
+<img width="753" alt="Screen Shot 2022-04-15 at 2 41 33 PM" src="https://user-images.githubusercontent.com/97859358/163635394-1d6f0f9e-2a29-4fa3-89cb-4e42140e5b3f.png">
+
+Above creates the individual images and links for each post on the  QR  landing page. Note that Liquid uses {%%} for logic and {{}} to render dynamically. | is used as a filter. To note as well is the comment I left for the owner. I prefaced all of my comments to the owner with JUJU so that he can easily find all directed comments via search.
+
 ## Explanation of files in this repo
 
 The files in this repo are copies of some of the files that I created or files that I added to or made major deletions to.
@@ -46,60 +82,20 @@ theme.css controls the themes to a duplicated generic store. Here I was looking 
 
 Also to note: I created what is called two themes. One theme, Debut Copy Trademark 2 dev theme to experiment in which was originally a copy of an empty store, and Spring 2022 April 13, 2022 w qr landing page which was a copy of Leon's entire store, to be used as a development branch.
 
-
-## Screenshots
-
-### Before
-
-#### Desktop QR Landing Page
-
-<img width="1264" alt="Screen Shot 2022-04-13 at 4 36 46 PM" src="https://user-images.githubusercontent.com/97859358/163286765-0f2a1fe2-41bb-46d8-84f2-f5f6725967a1.png">
-
-#### Mobile QR Landing Page
-
-<img width="364" alt="Screen Shot 2022-04-13 at 4 40 00 PM" src="https://user-images.githubusercontent.com/97859358/163287022-e10c0aec-eee4-46a2-a0d9-39e714bdf7d9.png">
-
-### After
-
-#### Desktop QR Landing Page
-
-<img width="1437" alt="Screen Shot 2022-04-14 at 3 33 41 PM" src="https://media.git.generalassemb.ly/user/41473/files/51379480-bc08-11ec-9701-45665e4a4631">
-
-
-#### Mobile QR Landing Page
-TODO reput in this one
-<img width="369" alt="Screen Shot 2022-04-13 at 4 32 10 PM" src="https://user-images.githubusercontent.com/97859358/163286413-5105131d-8f2d-4f99-843f-4c554032531e.png">
-
-#### Desktop Video Gallery
-
-<img width="1436" alt="Screen Shot 2022-04-15 at 2 18 57 PM" src="https://user-images.githubusercontent.com/97859358/163633589-7d34bc68-b760-4412-9394-2aa80bfcab7b.png">
-
-#### Mobile Video Gallery
-
-<img width="362" alt="Screen Shot 2022-04-15 at 2 20 03 PM" src="https://user-images.githubusercontent.com/97859358/163633654-daef3289-f30b-491b-92b7-90a8af499b12.png">
-
-### Sample of Liquid within Shopify
-
-<div class="blogcss page-width page-container">
-  {% for article in blog.articles %}
-    <div class="column-wrapper black-border">
-          <a href="{{ article.url }}" target="_blank" title="{{article.title}}">
-            {{ article | img_url: 'large'| img_tag: article.title}}
-          </a>
-     </div> 
-  {% endfor %}
-</div>
-
-Above creates the individual images and links for each post on the  QR  landing page. Note that Liquid uses {%%} for logic and {{}} to render dynamically. | is used as a filter.
-
 ## Tech Used
 
 Shopify
+
 Liquid
+
 VS Code
+
 Git
+
 GitHub
+
 CSS
+
 HTML
 
 ## Link to GitHub repository
