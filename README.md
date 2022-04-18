@@ -24,7 +24,7 @@ Now that this page has been created to his specifications, Leon can leave his cl
 
 Leon then gave me another (stretch) goal: a video gallery page. This was completed with dummy data and not directly connected to his main shop page so that users cannot easily navigate to it. The video gallery code has a template I created with directions so Leon can add videos and descriptions as he sees fit.
 
-## Screenshots
+## Screenshots and QR code
 
 ### After
 
@@ -35,6 +35,10 @@ Leon then gave me another (stretch) goal: a video gallery page. This was complet
 #### Mobile QR Landing Page
 
 <img width="372" alt="Screen Shot 2022-04-15 at 2 38 24 PM" src="https://user-images.githubusercontent.com/97859358/163635158-a300aa86-415b-40b8-9599-dbe38c29542a.png">
+
+#### QR code that links to landing page
+
+![IMG_0136](https://user-images.githubusercontent.com/97859358/163834945-940dde93-fe7d-4220-8f9c-a50680367483.jpeg)
 
 #### Desktop Video Gallery
 
